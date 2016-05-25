@@ -1,5 +1,5 @@
 before_build:
-- dotnet restore MyCoreWebApp.sln
+- dotnet restore src\MyCoreWebApp\project.json
 build:
   project: MyCoreWebApp.sln
   parallel: true
