@@ -5,4 +5,5 @@ build:
   parallel: true
   verbosity: minimal
 after_build:
-- cmd: dotnet publish .\src\MyCoreWebApp -o .\dist -c Debug
+- dotnet publish .\src\MyCoreWebApp --output %appveyor_build_folder%\dist --configuration Debug --no-build
+- dir dist
