@@ -5,4 +5,4 @@ build:
   parallel: true
   verbosity: minimal
 after_build:
-- cmd: dotnet publish src\MyCoreWebApp -o publish -c Debug
+- cmd: dotnet publish .\src\MyCoreWebApp -o .\dist -c Debug
