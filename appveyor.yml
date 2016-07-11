@@ -1,4 +1,4 @@
-image: Visual Studio 2015 - GCE
+#image: Visual Studio 2015 - GCE
 environment:
   website_name: my-aspnetcore-rc2
   website_psw:
